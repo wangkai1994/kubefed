@@ -71,7 +71,11 @@ kubefed-charts   https://raw.githubusercontent.com/kubernetes-sigs/kubefed/maste
 
 With the repo added, available charts and versions can be viewed.
 ```bash
+# helm 2
 $ helm search kubefed --devel
+
+# helm 3
+# $ helm search repo kubefed --devel
 ```
 
 Install the chart and specify the version to install with the
